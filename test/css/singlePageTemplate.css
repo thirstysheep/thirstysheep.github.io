@@ -18,30 +18,15 @@ body {
 	background-color: #FFFFFF;
 }
 /* Navigation */
-header {
-	width: 100%;
-	height: 5%;
-	background-color: #52bad5;
-	border-bottom: 1px solid #2C9AB7;
-}
-.logo {
-	color: #fff;
-	font-weight: bold;
-	text-align: undefined;
-	width: 10%;
-	float: left;
-	margin-top: 15px;
-	margin-left: 25px;
-	letter-spacing: 4px;
-}
 nav {
 	margin: auto;
-	width: 50%;
+	width: 55%;
 	text-align: center;
 }
 ul {
 	list-style-type: none;
-	padding-left: 14%;
+	padding-left: 25%;
+	padding-right: 25%;
 	padding-bottom: none;
 	overflow: hidden;
 	background-color: rgba(82,97,209,0.82);
@@ -60,10 +45,7 @@ li a {
 li a:hover {
 	background-color: rgba(0,3,63,0.95);
 }
-header nav ul {
-	list-style: none;
-	float: right;
-}
+
 nav ul li {
 	float: left;
 	color: #FFFFFF;
@@ -74,12 +56,61 @@ nav ul li {
 	font-weight: bold;
 	transition: all 0.3s linear;
 }
-ul li a {
-	color: #FFFFFF;
-	text-decoration: none;
+body {
+    font-family: "Lato", sans-serif;
 }
-ul li:hover a {
-	color: #2C9AB7;
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+/* Header */
+.header {
+	position: relative;
+	background: url(../../images/034.jpg) no-repeat center;
+	background-size: cover;
+	padding: 17%;
 }
 .hero_header {
 	color: #FFFFFF;
@@ -89,14 +120,6 @@ ul li:hover a {
 	margin-bottom: 0px;
 	margin-left: 0px;
 	letter-spacing: 4px;
-}
-/* Hero Section */
-.hero {
-	position: relative;
-	background: url(../../images/034.jpg) no-repeat center;
-	background-size: cover;
-	padding-top: 150px;
-	padding-bottom: 150px;
 }
 .tagline {
 	text-align: center;
@@ -176,8 +199,8 @@ ul li:hover a {
 /* Parallax Section */
 .banner {
 	background-color: #2D9AB7;
-	background-image: url(../images/parallax.png);
-	height: 400px;
+	background-image: url();
+	height: 200px;
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
