@@ -81,12 +81,12 @@ body {
 }
 
 #content #mainContent #name{
-	width: 60%;
+	width: 40%;
 	float: left;
 	padding: 2%;
 }
 #content #mainContent #time{
-	width: 30%;
+	width: 50%;
 	text-align: right;
 	float: left;
 	padding: 2%;
