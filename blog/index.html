@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blog Index</title>
+<link href="BlogPostAssets/styles/mainStyle.css" rel="stylesheet" type="text/css">
+<script src= "js/list.js"></script>
+</head>
+
+<body>
+<!-- HeadList -->
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href= "../test/index.html">Homepage</a>
+  <a href="index.html">Blog</a>
+  <a href="index.html">Second</a>
+  <a href="index.html">Third</a>
+</div>
+<div id="mainwrapper">
+  <div style="background: rgba(8,0,49,1.00); color: rgba(255,255,255,1.00)">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; 打开</span>
+  </div>
+  <header>
+    <!--**************************************************************************
+    Header starts here. It contains Logo and 3 navigation links. 
+    ****************************************************************************-->
+    <div id="logo">
+      <!-- <img src="logoImage.png" alt="sample logo"> --><!-- Company Logo text -->Logo
+    </div>
+    <nav>
+      <a href="#" title="Link">Nav1</a>
+      <a href="#" title="Link">Nav2</a>
+      <a href="#" title="Link">Nav3</a>
+    </nav>
+  </header>
+  <div id="content">
+    <div class="notOnDesktop">
+      <!-- This search box is displayed only in mobile and tablet laouts and not in desktop layouts -->
+      <input type="text" placeholder="Search">
+    </div>
+    <section id="mainContent">
+      <!--************************************************************************
+    Main Blog content starts here
+    ****************************************************************************-->
+      <h1><!-- Blog title -->Post Title</h1>
+      <h3><!-- Tagline -->SOME AWESOME HERO TAGLINE</h3>
+      <div id="bannerImage">
+      </div>
+      <div>
+        <div id="name">
+          <a href="test1.html">Telephone Line</a>
+        </div>
+        <div id="time">
+          <a style="text-align: right">time test 2017</a>
+        </div>
+      </div>
+      <div>
+        <h1>分割线</h1>
+      </div>
+      <!-- The author information is contained here -->
+      <aside id="authorInfo">      
+        <h2>Author Name</h2>
+        <p>正在进行css精简化测试中。</p>
+      </aside>
+    </section>
+    <section id="sidebar">
+      <!--************************************************************************
+    Sidebar starts here. It contains a searchbox, sample ad image and 6 links
+    ****************************************************************************-->
+      <input type="text" placeholder="Search">
+      <div id="adimage">
+        <img src="BlogPostAssets/images/300x250.gif" alt=""/>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="#" title="Link">Link1</a>
+          </li>
+          <li>
+            <a href="#" title="Link">Link2</a>
+          </li>
+          <li>
+            <a href="#" title="Link">Link3</a>
+          </li>
+          <li>
+            <a href="#" title="Link">Link4</a>
+          </li>
+          <li>
+            <a href="#" title="Link">Link5</a>
+          </li>
+          <li>
+            <a href="#" title="Link">Link6</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+    <!--注脚-->
+    <footer>
+      <article>
+        <h3>Footer</h3>
+        <p>各个栏目的超链接需要准备，以及一些微调？</p>
+      </article>
+    </footer>
+  </div>
+  
+<!--Footer Bar-->
+  <div id="footerbar">
+    <div id="copyright">
+      &copy;2017 - <strong>ThirstySheep</strong>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,4 +1,94 @@
-@charset "UTF-8";
+#content #mainContent #name{
+	width: 60%;
+	float: left;
+	padding: 2%;
+}
+#content #mainContent #time{
+	width: 30%;
+	text-align: right;
+	float: left;
+	padding: 2%;
+}#content #mainContent #name{
+	width: 60%;
+	float: left;
+	padding: 2%;
+}
+#content #mainContent #time{
+	width: 30%;
+	text-align: right;
+	float: left;
+	padding: 2%;
+}#content #mainContent #name{
+	width: 60%;
+	float: left;
+	padding: 2%;
+}
+#content #mainContent #time{
+	width: 30%;
+	text-align: right;
+	float: left;
+	padding: 2%;
+}#content #mainContent #name{
+	width: 60%;
+	float: left;
+	padding: 2%;
+}
+#content #mainContent #time{
+	width: 30%;
+	text-align: right;
+	float: left;
+	padding: 2%;
+}#content #mainContent #name{
+	width: 60%;
+	float: left;
+	padding: 2%;
+}
+#content #mainContent #time{
+	width: 30%;
+	text-align: right;
+	float: left;
+	padding: 2%;
+}#content #mainContent #name{
+	width: 60%;
+	float: left;
+	padding: 2%;
+}
+#content #mainContent #time{
+	width: 30%;
+	text-align: right;
+	float: left;
+	padding: 2%;
+}#content #mainContent #name{
+	width: 60%;
+	float: left;
+	padding: 2%;
+}
+#content #mainContent #time{
+	width: 30%;
+	text-align: right;
+	float: left;
+	padding: 2%;
+}width: 60%;
+	float: left;
+	padding: 2%;width: 60%;
+	float: left;
+	padding: 2%;width: 60%;
+	float: left;
+	padding: 2%;width: 60%;
+	float: left;
+	padding: 2%;width: 60%;
+	float: left;
+	padding: 2%;width: 60%;
+	float: left;
+	padding: 2%;width: 60%;
+	float: left;
+	padding: 2%;width: 60%;
+	float: left;
+	padding: 2%;width: 60%;
+	float: left;
+	padding: 2%;width: 60%;
+	float: left;
+	padding: 2%;@charset "UTF-8";
 /* Body */
 body {
 	background-color: #f2f2f2;
@@ -95,8 +185,11 @@ body {
 }
 
 #main {
-    transition: margin-left .5s;
-    padding: 0.15%;
+	transition: margin-left .5s;
+	padding-top: 0.15%;
+	padding-right: 0.15%;
+	padding-left: 0.15%;
+	padding-bottom: 0.15%;
 }
 
 @media screen and (max-height: 450px) {

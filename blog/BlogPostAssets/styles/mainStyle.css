@@ -133,10 +133,10 @@ body {
 }
 footer article {
 	/* Footer articles */
-	width: 46%;
+	width: 90%;
 	float: left;
-	padding-left: 2%;
-	padding-right: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
 	text-align: justify;
 	font-family: source-sans-pro, sans-serif;
 	font-style: normal;
@@ -201,11 +201,22 @@ nav ul li a {
 }
 #footerbar {
 	/* Footer bar at the bottom of the page */
-	height: 18px;
+	
 	clear: both;
 	background-color: rgba(208,207,207,1.00);
 	width: 100%;
 }
+#footerbar #copyright {
+	text-align: center;
+	padding: 1%;
+	background-color: #717070;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+}
+
 footer {
 	/* Container for footer artices */
 	width: 71%;
@@ -345,5 +356,4 @@ footer {
 #content footer article {
 	/* Each foter article */
 	width: 96%;
-}
 }
