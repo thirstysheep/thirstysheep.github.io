@@ -4,7 +4,7 @@
 #mainwrapper header {
 	/*Header */
 	background-color: rgba(208,207,207,1.00);
-	overflow: auto;
+	overflow: hidden;
 	font-family: montserrat, sans-serif;
 	font-style: normal;
 	font-weight: 400;
@@ -171,7 +171,7 @@ footer article h3 {
 #mainwrapper {
 	/* Container of all content */
 	width: 90%;
-	overflow: auto;
+	overflow: hidden;
 	margin-left: 5%;
 }
 #content #sidebar input {
@@ -185,7 +185,7 @@ footer article h3 {
 	background-color: rgba(208,207,207,1.00);
 	margin-top: 46px;
 	float: none;
-	overflow: auto;
+	overflow: hidden;
 }
 nav ul li {
 	list-style-type: none;
@@ -260,7 +260,7 @@ footer {
 	float: none;
 	width: 92%;
 	padding-top: 13px;
-	overflow: auto;
+	overflow: hidden;
 	margin-top: 3px;
 	margin-left: 2%;
 	padding-bottom: 13px;
