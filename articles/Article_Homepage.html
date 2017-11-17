@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Blog Index</title>
-<link href="BlogPostAssets/styles/mainStyle.css" rel="stylesheet" type="text/css">
+<link href="css/mainStyle.css" rel="stylesheet" type="text/css">
 <script src= "js/list.js"></script>
 </head>
 
@@ -12,10 +12,10 @@
 <!-- HeadList -->
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href= "../test/index.html">Homepage</a>
-  <a href="index.html">Blog</a>
+  <a href= "../index.html">Homepage</a>
+  <a href="Article_Homepage.html">Articles</a>
   <a href="index.html">Second</a>
-  <a href="index.html">Third</a>
+  <a href=" ">As For Me</a>
 </div>
 <div id="mainwrapper">
   <div style="background: rgba(8,0,49,1.00); color: rgba(255,255,255,1.00)">
@@ -43,34 +43,25 @@
       <!--************************************************************************
     Main Blog content starts here
     ****************************************************************************-->
-      <h1><!-- Blog title -->Post Title</h1>
-      <h3><!-- Tagline -->SOME AWESOME HERO TAGLINE</h3>
-      <div id="bannerImage">
-      </div>
-      <div>
-        <div id="name">
-          <a href="test1.html">Telephone Line</a>
-        </div>
-        <div id="time">
-          <a style="text-align: right">time_test 2017</a>
-        </div>
-      </div>
-       <div>
-        <div id="name">
-          <a href="test2.html">Heat Death</a>
-        </div>
-        <div id="time">
-          <a style="text-align: right">time_test 2017</a>
-        </div>
-      </div>
-      <div>
-        <h1>分割线</h1>
-      </div>
-      <!-- The author information is contained here -->
-      <aside id="authorInfo">      
-        <h2>Author Name</h2>
+      <h1><!-- Blog title -->文章列表</h1>
+      <h5><!-- Tagline -->目前仅做测试使用</h5>
+      
+      <!-- The articleList is contained here -->
+      <div id="articleList">
+        <p id="name">
+          <a href="通话.html" title="通话">Telephone Line</a>
+        </p>
+        <p id="time">
+          <a>time_test 2017</a>
+        </p>
+        <p id="name">
+          <a href="热气散尽.html" title="热气散尽">Heat Death</a>
+        </p>
+        <p id="time">
+          <a>time_test 2017</a>
+        </p>
         <p>正在进行css精简化测试中。</p>
-      </aside>
+      </div>
     </section>
     <section id="sidebar">
       <!--************************************************************************
@@ -83,7 +74,7 @@
       <nav>
         <ul>
           <li>
-            <a href="#" title="Link">Link1</a>
+            <a href="#" title="Link">将来改成button作为标签</a>
           </li>
           <li>
             <a href="#" title="Link">Link2</a>
@@ -113,8 +104,8 @@
   </div>
   
   <!-- 来必力City版安装代码 -->
-<div id="lv-container" data-id="city" data-uid="MTAyMC8zMTc0MS84MzA1">
-<script type="text/javascript">
+  <div id="lv-container" data-id="city" data-uid="MTAyMC8zMTc0MS84MzA1">
+    <script type="text/javascript">
    (function(d, s) {
        var j, e = d.getElementsByTagName(s)[0];
 
@@ -127,10 +118,12 @@
        e.parentNode.insertBefore(j, e);
    })(document, 'script');
 </script>
-<noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
-</div>
-<!-- City版安装代码已完成 -->
-<!--Footer Bar-->
+    <noscript>
+    为正常使用来必力评论功能请激活JavaScript
+    </noscript>
+  </div>
+  <!-- City版安装代码已完成 -->
+  <!--Footer Bar-->
   <div id="footerbar">
     <div id="copyright">
       &copy;2017 - <strong>ThirstySheep</strong>

@@ -1,10 +1,24 @@
 @charset "UTF-8";
 
 
+#to_top{
+	right: 0px;
+	bottom: 0px;
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+	position: fixed;
+
+	
+}
+#to_top img {
+	width: 100%;
+}
+
 #mainwrapper header {
 	/*Header */
 	background-color: rgba(208,207,207,1.00);
-	overflow: auto;
+	overflow: hidden;
 	font-family: montserrat, sans-serif;
 	font-style: normal;
 	font-weight: 400;
@@ -34,6 +48,7 @@ header nav a {
 }
 body {
     font-family: "Lato", sans-serif;
+
 }
 
 .sidenav {
@@ -80,13 +95,17 @@ body {
   .sidenav a {font-size: 18px;}
 }
 
+#content{
+	overflow: hidden;
+}
+
 #content #mainContent #name{
-	width: 40%;
+	width: 60%;
 	float: left;
 	padding: 2%;
 }
 #content #mainContent #time{
-	width: 50%;
+	width: 30%;
 	text-align: right;
 	float: left;
 	padding: 2%;
@@ -133,10 +152,10 @@ body {
 }
 footer article {
 	/* Footer articles */
-	width: 90%;
+	width: 46%;
 	float: left;
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-left: 2%;
+	padding-right: 2%;
 	text-align: justify;
 	font-family: source-sans-pro, sans-serif;
 	font-style: normal;
@@ -171,7 +190,7 @@ footer article h3 {
 #mainwrapper {
 	/* Container of all content */
 	width: 90%;
-	overflow: auto;
+	overflow: hidden;
 	margin-left: 5%;
 }
 #content #sidebar input {
@@ -185,7 +204,7 @@ footer article h3 {
 	background-color: rgba(208,207,207,1.00);
 	margin-top: 46px;
 	float: none;
-	overflow: auto;
+	overflow: hidden;
 }
 nav ul li {
 	list-style-type: none;
@@ -201,22 +220,11 @@ nav ul li a {
 }
 #footerbar {
 	/* Footer bar at the bottom of the page */
-	
+	height: 18px;
 	clear: both;
 	background-color: rgba(208,207,207,1.00);
 	width: 100%;
 }
-#footerbar #copyright {
-	text-align: center;
-	padding: 1%;
-	background-color: #717070;
-	color: #FFFFFF;
-	text-transform: uppercase;
-	font-weight: lighter;
-	letter-spacing: 2px;
-	border-top-width: 2px;
-}
-
 footer {
 	/* Container for footer artices */
 	width: 71%;
@@ -271,7 +279,7 @@ footer {
 	float: none;
 	width: 92%;
 	padding-top: 13px;
-	overflow: auto;
+	overflow: hidden;
 	margin-top: 3px;
 	margin-left: 2%;
 	padding-bottom: 13px;
@@ -356,4 +364,5 @@ footer {
 #content footer article {
 	/* Each foter article */
 	width: 96%;
+}
 }

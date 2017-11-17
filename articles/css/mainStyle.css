@@ -1,10 +1,8 @@
 @charset "UTF-8";
-
-
 #mainwrapper header {
 	/*Header */
 	background-color: rgba(208,207,207,1.00);
-	overflow: hidden;
+	overflow: auto;
 	font-family: montserrat, sans-serif;
 	font-style: normal;
 	font-weight: 400;
@@ -33,67 +31,62 @@ header nav a {
 	padding-right: 2%;
 }
 body {
-    font-family: "Lato", sans-serif;
-
+	font-family: "Lato", sans-serif;
 }
-
 .sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
 }
-
 .sidenav a {
-    padding: 5%;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
+	padding: 5%;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
 }
-
-.sidenav a:hover, .offcanvas a:focus{
-    color: #f1f1f1;
+.sidenav a:hover, .offcanvas a:focus {
+	color: #f1f1f1;
 }
-
 .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-
-#mainwrapper {
-    transition: margin-left .5s;
-    padding: 0.15%;
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+.sidenav {
+	padding-top: 15px;
 }
-
-#content{
-	overflow: hidden;
+.sidenav a {
+	font-size: 18px;
 }
-
-#content #mainContent #name{
-	width: 60%;
+}
+#content #mainContent #name {
+	width: 41%;
 	float: left;
 	padding: 2%;
 }
-#content #mainContent #time{
-	width: 30%;
+#content #mainContent #name a {
+	text-decoration: none;
+	display: block;
+	color: rgba(0,76,255,1.00)
+}
+#content #mainContent #time {
+	width: 51%;
 	text-align: right;
-	float: left;
+	color: rgba(0,0,0,1.00);
+	float: right;
 	padding: 2%;
 }
 #content #mainContent h1, #content #mainContent h2 {
@@ -120,6 +113,12 @@ body {
 	font-weight: 200;
 	text-align: justify;
 }
+#content #mainContent #articleList {
+	/* ArticleList section */
+	margin-top: 5%;
+	margin-bottom: 5%;
+	background-color: rgba(231,231,231,1.00);
+}
 #content #mainContent #authorInfo {
 	/* Author info section */
 	background-color: rgba(208,207,207,1.00);
@@ -138,10 +137,10 @@ body {
 }
 footer article {
 	/* Footer articles */
-	width: 46%;
+	width: 90%;
 	float: left;
-	padding-left: 2%;
-	padding-right: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
 	text-align: justify;
 	font-family: source-sans-pro, sans-serif;
 	font-style: normal;
@@ -175,9 +174,10 @@ footer article h3 {
 }
 #mainwrapper {
 	/* Container of all content */
-	width: 90%;
-	overflow: hidden;
-	margin-left: 5%;
+	width: 96%;
+	overflow: auto;
+	margin-left: 2%;
+	margin-right: 2%;
 }
 #content #sidebar input {
 	/* Search box in sidebar */
@@ -190,7 +190,7 @@ footer article h3 {
 	background-color: rgba(208,207,207,1.00);
 	margin-top: 46px;
 	float: none;
-	overflow: hidden;
+	overflow: auto;
 }
 nav ul li {
 	list-style-type: none;
@@ -206,10 +206,20 @@ nav ul li a {
 }
 #footerbar {
 	/* Footer bar at the bottom of the page */
-	height: 18px;
+	
 	clear: both;
 	background-color: rgba(208,207,207,1.00);
 	width: 100%;
+}
+#footerbar #copyright {
+	text-align: center;
+	padding: 1%;
+	background-color: #717070;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
 }
 footer {
 	/* Container for footer artices */
@@ -265,7 +275,7 @@ footer {
 	float: none;
 	width: 92%;
 	padding-top: 13px;
-	overflow: hidden;
+	overflow: auto;
 	margin-top: 3px;
 	margin-left: 2%;
 	padding-bottom: 13px;
@@ -350,5 +360,4 @@ footer {
 #content footer article {
 	/* Each foter article */
 	width: 96%;
-}
 }

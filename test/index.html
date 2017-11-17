@@ -1,122 +1,92 @@
-<!doctype html>
-<html lang="en-US">
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>HomePage</title>
-	<link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css">
-	<script src="js/list.js">
-	</script>
-	</head>
-	<body>
-<!-- Main Container -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HomePage</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+<script src="js/skel.min.js"></script>
+<script src="js/skel-panels.min.js"></script>
+<script src="js/init.js"></script>
+<noscript>
+<link rel="stylesheet" href="css/skel-noscript.css" />
+<link rel="stylesheet" href="css/style.css" />
+</noscript>
+<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+</head>
 
-<!-- Hero Section -->
-<div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="index.html">Homepage</a>
-      <a href="../blog/index.html">Blog</a>
-      <a href="index.html">Second</a>
-      <a href="index.html">Third</a>
-    </div>
-<div id="main">
-      <div style="background: rgba(8,0,49,1.00); color: rgba(255,255,255,1.00)">
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
-  </div>
-      <div class="header">
-    <p class="hero_header"; style="color:#000000;">
-        <h2 style="text-align: center; font-size: 24px"> 我的羊圈 </h2>
-        <p class="tagline">
-        <h2 style="text-align: center; color: rgba(255,0,4,1.00);font-size: 20px">私有化进度25%</h2>
-    </p>
+<body class="homepage">
+
+<!-- Header -->
+<div id="header">
+  <div class="container"> 
+    
+    <!-- Logo -->
+    <div id="logo">
+      <h1><a href="index.html">我的羊圈</a></h1>
+      <span>Copy by TS</span> </div>
+    
     <!-- Nav -->
+    <nav id="nav">
+      <ul>
+        <li class="active"><a href="index.html">Homepage</a></li>
+        <li>first</li>
+        <li>second</li>
+        <li><a href="index.html">third</a></li>
+        <li>fourth</li>
+      </ul>
+    </nav>
   </div>
-      
-      <!-- 横向导航列表
-  <div style="background: rgba(49,0,103,1.00)">
-      <nav class="nav">
-    <ul>
-          <li><a href="index.html">Homepage</a></li>
-          <li><a href="index.html">first</a></li>
-          <li><a href="index.html">second</a></li>
-        </ul>
-  </nav>
-    </div>
-    -->
-      <p>
-  <h1>
-    <a href="../index.html">返回那个虚伪的主页</a>
-  </h1>
-      </p>
-      
-      <!-- About Section -->
-      <section class="about" id="about">
-    <h2 class="hidden">About</h2>
-    <div class="text_column_left"; style="text-indent: 35px">
-          <style> 
-            p {text-indent:35px;} 
-      </style>
-          <div>
-        <p>夏季是你喜欢的时节，我想，那也是我的。</p>
-        <p>日影开始变得低沉，黄昏已经降临，而对于夜间清凉的期待，就如同浮尘妄图遮蔽阳光般荒诞。</p>
-        <p>我们是笑得那么灿烂，上扬的嘴角就像那锋利的镰刀。我紧握住你的手，注视着你的眼眸，在你的眼中我看见了自己的倒影。我深吸了一口气，又缓缓地吐出，空气中传来了气流的嘶响，我想我从没有这样讨厌过那个影子。</p>
-        <p style="text-align: right; font-size: 25px">
-              <a href="../blog/test2.html">READMORE</a>
-            </p>
-            <h1>--------------分割线？--------------</h1>
-      </div>
-        </div>
-    <div class="text_column_right">
-          <p>以后可以在这里添加自己的联系方式等等。放弃这一提案，放在尾部更好。</p>
-          <a href="http://thirstysheep.site">不知道留什么，比如个人主页？</a>
-        </div>
-    <div class="text_column_left"; style="text-indent: 35px">
-          <style> 
-            p {text-indent:35px;} 
-      </style>
-          <div>
-        <p>尼古拉斯正准备打电话，留给他的时间不多了。</p>
-        <p>他坐在那儿，电话机就放在身边，而他却发现自己害怕拿起那听筒，然后拨通未婚妻的电话。</p>
-        <p>即使他再想方设法地拖延打电话的举动，他还是很清楚自己非干不可。他是逃不掉的，因为自己正被绑在这张椅子上，而这将是最后一通电话。</p>
-        <p style="text-align: right; font-size: 25px">
-              <a href="../blog/test1.html">READMORE</a>
-            </p>
-      </div>
-        </div>
-  </section>
-      <!-- Parallax Section -->
-      <section class="banner">
-    <h2 class="parallax">联系我</h2>
-    <p class="parallax_description">大概在这里留下联系方式会更舒服一点</p>
-  </section>
-     <!--PC版-->
-<div id="SOHUCS" sid="请将此处替换为配置SourceID的语句"></div>
-<script charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/changyan.js" ></script>
-<script type="text/javascript">
-window.changyan.api.config({
-appid: 'cytiTJRSU',
-conf: 'prod_5b0bdfc34a99f136b80808375fd965db'
-});
-</script>
+</div>
+<!-- Header -->
 
-      <!-- More Info Section -->
-      
-      <!-- Footer Section -->
-      <section class="footer_banner" id="contact">
-    <h2 class="hidden">Footer Banner Section </h2>
-    <p class="hero_header">FOR THE LATEST NEWS &amp; UPDATES</p>
-    <div class="button">
-          subscribe
-        </div>
-  </section>
-      <!-- Copyrights Section -->
-      <div class="copyright">
-    &copy;2017 - <strong>ThirstySheep</strong>
+<p>test</p>
+<p style="background: #C49D3C">这将是第一段文字</p>
+<h1 style="text-align:center">这是1号标题</h1>
+<h1><a href="link/copy.html">copy跳转测试</a>to copy</h1>
+<h1><a href="test/test.html">js练习测试</a></h1>
+<h1><a href="test/index.html">To my real HomePage</a></h1>
+
+<!-- Main -->
+<div id="Main">
+  <div class="container">
+    <style> 
+p {text-indent:35px;} 
+</style>
+    <p>试试看，随便打一点什么东西上去，比如说刚刚翻得那一段话试试。</p>
+    <p> 尼古拉斯正准备打电话，留给他的时间不多了。</p>
+    <p>他坐在那儿，电话机就放在身边，而他却发现自己害怕拿起那听筒，然后拨通未婚妻的电话。</p>
+    <p>即使他再想方设法地拖延打电话的举动，他还是很清楚自己非干不可。他是逃不掉的，因为自己正被绑在这张椅子上，而这将是最后一通电话。</p>
+    <p style="text-align: right; font-size: 25px"><a href="link/link2.html">READMORE</a></p>
   </div>
-      
-      <!-- Main Container Ends -->
-      
+</div>
+
+<!-- Main --> 
+
+<!-- Footer -->
+<div id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="6u">
+        <section>
+          <header>
+            <h3>(⊙o⊙)…</h3>
+          </header>
+          <p>emmmmmm...</p>
+        </section>
+      </div>
     </div>
+  </div>
+</div>
+<!-- Footer --> 
+
+<!-- Copyright -->
+<div id="copyright">
+  <div class="container"> <a  style="color: 
+				#000000"  target="_blank">@copyright ts</a> </div>
+</div>
 </body>
 </html>
